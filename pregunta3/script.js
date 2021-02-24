@@ -15,9 +15,5 @@ function guardar(){
     var btn = document.createElement("TR");
    	btn.innerHTML=fila;
     document.getElementById("tablita").appendChild(btn);
-    document.tabla.appendChild(fila)
 }
 
-function writeElementToSessionStorage(keyName, arrayObject) {
-    sessionStorage.setItem(keyName, JSON.stringify(arrayObject))
-}
